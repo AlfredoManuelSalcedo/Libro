@@ -1,13 +1,21 @@
 COMANDOS EJERCICIO 1
+- mkdir Repositorio
 - git config --global user.name "alfredo"
 - git config --global user.mail "alfred.salced@gmail.com"
 - git config --global color.ui auto
 
 EJERCICIO 2
+- mkdir Libro
+- git config --global user.name "alfredo"
+- git config --global user.mail "alfred.salced@gmail.com"
+- git config --global color.ui auto
 - git init
 
 EJERCICIO 3
 - git status
+- echo Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos >indice.txt
 - git status
 - git add indice.txt
 - git status
@@ -17,6 +25,10 @@ EJERCICIO 4
 - git status
 
 EJERCICIO 5
+- echo Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Gestión de ramas
+Capítulo 4: Repositorios remotos > indice.txt
 - git diff indice.txt
 - git add indice.txt
 - git commit -m "Añadido capitulo 3 sobre gestion de ramas"
