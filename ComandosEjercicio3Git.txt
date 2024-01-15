@@ -1,0 +1,10 @@
+EJERCICIO 3 GIT
+
+EJERCICIO 1
+-git branch bibliografia
+-git branch -a
+
+EJERCICIO 2
+-echo >capitulo4.txt
+-git add capitulo4.txt
+
