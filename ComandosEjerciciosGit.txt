@@ -29,7 +29,7 @@ EJERCICIO 5
 Capítulo 2: Flujo de trabajo básico
 Capítulo 3: Gestión de ramas
 Capítulo 4: Repositorios remotos > indice.txt
-- git diff indice.txt
+- git diff HEAD^ HEAD
 - git add indice.txt
 - git commit -m "Añadido capitulo 3 sobre gestion de ramas"
 - git log
