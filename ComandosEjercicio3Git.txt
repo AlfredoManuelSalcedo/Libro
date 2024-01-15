@@ -7,4 +7,47 @@ EJERCICIO 1
 EJERCICIO 2
 -echo >capitulo4.txt
 -git add capitulo4.txt
+-git commit -m "Añadido capitulo 4"
+-git log
+
+EJERCICIO 3
+-git switch bibliografia
+-cd ..
+-echo Chacon, S. and Straub, B. Pro Git. Apress. >bibliografia.txt
+-git add bibliografia.txt
+-git commit -m "Añadida primera referencia bibliográfica"
+-git log
+
+EJERCICIO 4
+-git switch master
+-git merge bibliografia
+-git log
+-git branch -d bibliografia
+-git log
+
+EJERCICIO 5
+-git branch bibliografia
+-git switch bibliografia
+-echo "Scott Chacon and Ben Straub. Pro Git. Apress." > bibliografia.txt
+-echo "Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)" >> bibliografia.txt
+-git add bibliografia.txt
+-git commit -m "Añadida nueva referencia bibliográfica"
+-git switch master
+-echo Chacon, S. and Straub, B. Pro Git. Apress. >bibliografia.txt
+-echo Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. >>bibliografia.txt
+-git merge bibliografia
+-----SOLUCION DE CONFLICTO------
+-echo "Chacon, S. and Straub, B. Pro Git. Apress." > bibliografia.txt
+-echo "Loeliger, J. and McCullough, M. Version control with Git. O’Reilly." >> bibliografia.txt
+-echo "Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)" >> bibliografia.txt
+-git add bibliografia.txt
+-------------------------------
+-git merge --continue
+-:wq
+-git commit -m "Resuelto conflicto de bibliografía"
+-git log
+
+
+
+
 
