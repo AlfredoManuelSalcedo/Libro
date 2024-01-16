@@ -22,7 +22,7 @@ EJERCICIO 4
 -git switch master
 -git merge bibliografia
 -git log
--git branch -d bibliografia
+-git branch -D bibliografia
 -git log
 
 EJERCICIO 5
