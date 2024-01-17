@@ -1,0 +1,21 @@
+EJERCICIO GIT 4
+
+EJERCICIO 1
+-Crear repositorio en Github
+-git clone https://github.com/AlfredoManuelSalcedo/libro-git.git
+-git remote -v
+
+EJERCICIO 2
+-git echo prueba >prueba.txt
+-git add prueba.txt
+-git commit -m "añadido repositorio"
+-git push
+
+EJERCICIO 3
+-cd ..
+-git clone https://github.com/AlbertoDeTeresaChaves/libro-git.git
+-cd libro-git
+-echo AlfredoManuelSalcedo alfred.salced@gmail.com >autores.txt
+-git add autores.txt
+-git commit -m "añadido autores.txt"
+-git push 
