@@ -1,0 +1,54 @@
+EJERCICIO GIT 5
+
+  Ejercicio1
+  -echo Capítulo 1: Introducción a Git Capítulo >indice.txt
+  -echo Capítulo 2: Flujo de trabajo básico >>indice.txt
+  -echo Capítulo 3: Gestión de ramas >>indice.txt
+  -echo Capítulo 4: Repositorios remotos >>indice.txt
+  -git status
+  -git checkout -- indice.txt
+  -git status
+
+Ejercicio2
+ -echo Capítulo 1: Introducción a Git Capítulo >indice.txt
+ -echo Capítulo 2: Flujo de trabajo básico >>indice.txt
+ -echo Capítulo 3: Gestión de ramas >>indice.txt
+ -echo Capítulo 4: Repositorios remotos >>indice.txt
+ -git add indice.txt
+ -git status
+ -git reset indice.txt
+ -git status
+ -git checkout -- indice.txt
+ -git status
+
+Ejercicio3
+ -echo Capítulo 1: Introducción a Git Capítulo >indice.txt
+ -echo Capítulo 2: Flujo de trabajo básico >>indice.txt
+ -echo Capítulo 3: Gestión de ramas >>indice.txt
+ -echo Capítulo 4: Repositorios remotos >>indice.txt
+ -cd capitulos 
+ -remove-item capitulo3.txt
+ -echo >capitulo4.txt
+ -cd ..
+ -git add .
+ -git reset --hard HEAD~1
+ -git status
+
+Ejercicio4
+ -echo Capítulo 1: Introducción a Git Capítulo >indice.txt
+ -echo Capítulo 2: Flujo de trabajo básico >>indice.txt
+ -echo Capítulo 3: Gestión de ramas >>indice.txt
+ -echo Capítulo 4: Repositorios remotos >>indice.txt
+ -cd capitulos
+ -remove-item capitulo3.txt
+ -cd ..
+ -git add .
+ -git commit -m "Borrado accidental"
+ -git log
+ -git reset --soft HEAD~1
+ -git log
+ -git status
+ -git commit -m "Borrado accidental"
+ -git reset --hard HEAD~1
+ -git status
+ -git log
