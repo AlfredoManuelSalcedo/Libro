@@ -21,3 +21,11 @@ EJERCICIO 3
 -git push 
 
 EJERCICIO 4
+-git clone https://github.com/AlfredoManuelSalcedo/libro-git2.git
+-cd libro-git2
+-git checkout -b autoria
+-echo Alfredo Manuel Salcedo > autores.txt
+-echo alfred.salced@gmail.com >>autores.txt
+-git add autores.txt
+-git commit -m "Añadido nuevo autor"
+-git push --set-upstream origin autoria
